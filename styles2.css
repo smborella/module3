@@ -1,0 +1,169 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body {
+	background-color:#FFFFFF;
+}
+
+.dropbtn {
+  /* background-color:#A0A49B; 
+  color: white; 
+  padding: 16px;
+  font-size: 16px;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 3px; */
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 30px;
+  padding: 10px;
+  background-color:#A0A49B; 
+}
+
+
+.dropdown {
+    position: relative; 
+	display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute; 
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+.dropdown-content a:hover {
+	background-color: gray;
+	border:2px solid white;
+	color:white;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+	border: 2px solid white;
+	color:white;
+	background-color:#A0A49B;
+
+  /*background-color: #FFFFFF;
+  color:#A0A49B;
+  border: 1px solid white; */
+}
+
+
+
+span {
+	background-color: #white;
+}
+
+#title {
+	font-size:30px;
+	color:black;
+	margin-bottom:0px;
+}
+
+button {
+	margin-top:25px;
+} 
+
+#description {
+	color:black;
+	background-color:#A0A49B;
+	font-size:15px;
+}
+
+.container {
+	background-color:#A0A49B;
+	width:100%;
+	margin:0;
+	border: 2px solid black;
+}
+
+.navbar-brand {
+	font-size:40px;
+	float:left;
+	margin-right:150px;
+}
+
+
+.dropdown-content a {
+	border: 2px solid black;
+
+}
+
+
+#content {
+	background-color:#FFFFFF;
+	position:absolute; 
+}
+
+h1 {
+	font-family: "Trebuchet Ms", Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+#content p {
+	background-color:gray;
+	color:black;
+	font-size:15px;
+}
+
+#menu h3 {
+	margin-top:15px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+#content h4 {
+	background-color:gray;
+	margin-bottom:0;
+	text-align:center;
+	line-height: 2;
+	font-weight:bold;
+}
+
+
+
+
+
+@media (min-width: 768px) { 
+	#content {
+		margin:20px 10px 20px 10px;
+	}
+	.dropdown {
+		display:none;
+	}
+}
+
+@media (max-width: 767px) {
+	#content {
+		margin:20px 80px 20px 80px;}
+	
+	button {
+		margin-bottom: 20px;
+
+	}
+} 
+
+
